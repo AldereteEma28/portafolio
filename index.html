@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/perfil.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/4bcd6e86c9.js" crossorigin="anonymous"></script>
+    
+  <script defer src="js/index.js"></script>
+
+</head>
+<body class="grid-container">
+  <header class="header">
+    
+            <nav class="nav">
+              <a href="#" class="logo nav-link" >Logo</a>
+              <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+             </button>
+            
+            <ul class="item ">
+                
+                <li class="nav-menu-item">
+                    <a href="#main" class="nav-menu-link nav-link .nav-menu-active">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#profile" class="nav-menu-link nav-link .nav-menu-active">Sobre Mi</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#apps" class="nav-menu-link nav-link .nav-menu-active">Apps</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="#contacto" class="nav-menu-link nav-link .nav-menu-active">Contacto</a>
+                </li>
+            </ul>
+            </nav>
+   
+  </header>
+  
+  <article class="main" id="main">
+    <div class="horizontal-padding vertical-padding" id="profile">
+      <section class="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, me llamo <br />Alderete Emanuel</h1>
+          <p class="profile-details">
+            Soy programador con conocimientos en el desarrollo tanto de frontend como backend. He realizado
+            varios cursos de programacion web, uno de ellos fue en el Informatorio
+            de Capacitaciones online del Chaco. También poseo algunos conocimientos basicos de tester
+          </p>
+          <button class="profile-btn">Visitar GitRepository</button>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="image/perfil.jpg"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding" id="apps">
+      <section class="skills">
+        <h2 class="skills-title">Habilidades y Apps desarrolladas</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">Python</li>
+          <li class="skills-skill">JavaScript</li>
+        </ul>
+      </section>
+    </div>
+    <div class="app">
+    <div class="grid-app">
+      <div
+        class="grid-item" 
+        style="background-image: url('image/appTrivia.png');">
+        <div class="capa">
+          <h3>App Trivia</h3>
+          <p>App desarrollada en el Informatorio</p>
+        </div>
+      </div>
+      <div
+        class="grid-item wide"
+        style="
+          background-image: url('image/snake.png');">
+          <div class="capa">
+            <h3>Snake Game</h3>
+            <p>Un juego sencillo creado con python y la interfaz grafica Turtle</p>
+          </div>  
+        </div>
+      <div
+        class="grid-item"
+        style="
+          background-image: url('image/calculadora.png');
+        ">
+        <div class="capa">
+          <h3>Calculadora</h3>
+          <p>Creada con python y la interfaz de tkinter</p>
+        </div> 
+        </div>
+      
+    </div>
+    </div>
+
+  </article>
+  <footer class="footer" id="contacto">
+    <section class="buttons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#"class="fas fa-envelope-square"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    </section>
+  </footer>
+</body>
+</html>

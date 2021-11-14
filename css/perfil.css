@@ -1,0 +1,120 @@
+a {
+    text-decoration: none;
+  
+  }
+  
+  .horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  @media (min-width: 950px) {
+    .horizontal-padding {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .vertical-padding {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
+
+.profile-info {
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 80%;
+  max-width: 300px;
+}
+
+.profile-img-section {
+  position: flex;
+}
+
+.profile-img-line {
+  height: 15px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.profile {
+  text-align: center;
+  background: rgb(235, 224, 224);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  position: flex;
+}
+
+.profile-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(80, 80, 80);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.profile-details {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  max-width: 450px;
+  margin: 20px auto;
+}
+
+.profile-btn {
+  background-color: rgb(121, 141, 255);
+  color: rgb(14, 14, 14);
+  border: none;
+  font-size: 20px;
+  padding: 0.5em 1em;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.profile-btn:hover {
+  filter: brightness(130%);
+}
+
+@media (min-width: 950px) {
+  .profile-info {
+    margin-bottom: 0px;
+  }
+  
+  .profile-img {
+    width: 100%;
+    max-width: 350px;
+   
+   
+   
+  }
+  
+  .profile {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .profile-title {
+    font-size: 60px;
+  }
+  
+  .profile-details {
+    font-size: 25px;
+    margin: 30px 0;
+  }
+  
+  .profile-btn {
+    font-size: 28px;
+  }
+}
